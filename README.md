@@ -4,7 +4,7 @@
 
 ## Overview
 
-![Overview of HiFi](HiFi.png)
+<img src="HiFi.png" width="900">
 
 ## Environment
 
