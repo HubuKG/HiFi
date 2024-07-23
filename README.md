@@ -4,7 +4,7 @@
 
 ## Overview
 
-![HiFi](C:\Users\Administrator\Desktop\HiFi.png)
+![Overview of HiFi](HiFi.png)
 
 ## Environment
 
@@ -12,11 +12,11 @@ pip install -r requirements.txt
 
 ## Data
 
-The datasets consist of DB15K, MKG-W, and MKG-Y, each containing a combination of structural, textual, and image information. Here, we directly present their embeddings. You can download all the dataset from [google drive](https://drive.google.com/drive/folders/1rLSqmVdXrHJbSB7On0RPZfrJZAhG2IjT?usp=drive_link). Then put them in the 'embeddings' folder.
+The datasets consist of DB15K, MKG-W, and MKG-Y, each containing a combination of structural, textual, and image information. Here, we directly present their embeddings. You can download all the datasets from [Google Drive](https://drive.google.com/drive/folders/1rLSqmVdXrHJbSB7On0RPZfrJZAhG2IjT?usp=drive_link). Then put them in the 'embeddings' folder.
 
 ## Run
 
-The provided scripts are capable of executing experiments on the DB15K dataset. To train on alternative datasets, adjust the '-dataset' parameter accordingly.
+The provided scripts can execute experiments on the DB15K dataset. To train on alternative datasets, adjust the '-dataset' parameter accordingly.
 
 ```
 CUDA_VISIBLE_DEVICES=0 nohup python HiFi_main.py -dataset=DB15K \
