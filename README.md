@@ -1,4 +1,3 @@
-# 
 
 # HiFi: Hierarchical Fusion-based Multi-Modal Knowledge Graph Completion with Structural Attention Generation
 
