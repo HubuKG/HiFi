@@ -4,7 +4,9 @@
 
 ## Overview
 
-<img src="HiFi.png" width="900">
+<p align="center">
+  <img src="HiFi.png" width="900">
+</p>
 
 ## Environment
 
